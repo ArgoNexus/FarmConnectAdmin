@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/LoginImage"
+                android:layout_width="@dimen/_320sdp"
+                android:layout_height="@dimen/_340sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/loginf"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Farm To Plate"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:textSize="22.10sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login or Sign Up"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:textSize="16.9sp"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="19.5dp"
+                app:boxCornerRadiusBottomEnd="16.9dp"
+                app:boxCornerRadiusBottomStart="16.9dp"
+                app:boxCornerRadiusTopStart="16.9dp"
+                app:endIconMode="clear_text">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/UserNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Mobile Number"
+                    android:inputType="number"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ContinueBtn"
+                android:layout_width="match_parent"
+                android:layout_height="58.5dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="26dp"
+                android:layout_marginTop="6.7dp"
+                android:backgroundTint="#8d99ae"
+                android:text="Continue"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="10.4dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

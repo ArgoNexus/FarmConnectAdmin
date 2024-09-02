@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FarmConnectAdmin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading....</string>
+        <string-array name="unit_array">
+            <item>kg</item>
+            <item>Quintal</item>
+            <item>Tons</item>
+        </string-array>
+
+</resources>
